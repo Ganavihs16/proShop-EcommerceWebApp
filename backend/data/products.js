@@ -1,7 +1,7 @@
 const products = [
   {
     name: 'Airpods Wireless Bluetooth Headphones',
-    image: '/images/airpods.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1qMbQuyofn-i6hItKm0Vx04OFxs6WgJzFDKYsrW7pska_IYeaWbhLQ1WnbzBtz2Uha_w&usqp=CAU',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
@@ -13,7 +13,7 @@ const products = [
   },
   {
     name: 'iPhone 11 Pro 256GB Memory',
-    image: '/images/phone.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-WKv_zsScUnZVu4un-5_wm3dOWG3wVxaV_A&s',
     description:
       'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
     brand: 'Apple',
@@ -25,7 +25,7 @@ const products = [
   },
   {
     name: 'Cannon EOS 80D DSLR Camera',
-    image: '/images/camera.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiLvhYB1qg68qsXCm6zDQjkEFo4F28KhEJ1w&s',
     description:
       'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
     brand: 'Cannon',
@@ -37,7 +37,7 @@ const products = [
   },
   {
     name: 'Sony Playstation 4 Pro White Version',
-    image: '/images/playstation.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Qofz0amym3scKy5pYHAyOd651UqFc1UtOQ&s',
     description:
       'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
     brand: 'Sony',
@@ -49,7 +49,7 @@ const products = [
   },
   {
     name: 'Logitech G-Series Gaming Mouse',
-    image: '/images/mouse.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNi8n9qvlNzBLRu7jU8Dzr0dm7JqodcvCQsA&s',
     description:
       'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
     brand: 'Logitech',
@@ -60,13 +60,25 @@ const products = [
     numReviews: 10,
   },
   {
-    name: 'Amazon Echo Dot 3rd Generation',
-    image: '/images/alexa.jpg',
+    name: 'Boat airpods',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmIP23P-VEt49OxbJql1YRLEE3Os2iJnQiyQ&s',
     description:
-      'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
-    brand: 'Amazon',
+      'This headset features 40-mm Dynamic Drivers that have speaker-resistance of up to 32 Ohm.',
+    brand: 'Boat',
     category: 'Electronics',
-    price: 29.99,
+    price: 25.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    name: 'Boat airpods',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmIP23P-VEt49OxbJql1YRLEE3Os2iJnQiyQ&s',
+    description:
+      'This headset features 40-mm Dynamic Drivers that have speaker-resistance of up to 32 Ohm. ',
+    brand: 'Boat',
+    category: 'Electronics',
+    price: 25.99,
     countInStock: 0,
     rating: 4,
     numReviews: 12,
@@ -74,3 +86,79 @@ const products = [
 ];
 
 module.exports = products;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
